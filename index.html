@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Imersão</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="vars.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.css">
+    <link rel="icon" href="/icons/logo.svg">
+</head>
+<body>
+    <div class="sidebar">
+        <nav class="sidebar__navigation">
+            <div class="logo">
+                <a href="">
+                    <img src="/icons/logo-spotify.png" alt="logo Spotify">
+                </a>
+            </div>
+
+            <ul>
+                <li>
+                    <a href="">
+                        <span class="fas fa-home"></span>
+                        <span>Início</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="fas fa-search"></span>
+                        <span>Buscar</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="library">
+            <div class="library__content">
+                <button class="library__button">
+                    <span class="fas fa-book"></span>
+                    <span>
+                        Sua Biblioteca
+                    </span>
+                </button>
+                <span class="fas fa-plus"></span>
+            </div>
+            <section class="section_playlist">
+                <div class="section_playlist__content">
+                    <span class="text title">
+                        Crie sua primeira playlist
+                    </span>
+                    <span class="text subtitle">
+                        É fácil, vamos te ajudar.
+                    </span>
+                    <button class="section_playlist__button">
+                        Criar playlist
+                    </button>
+                </div>
+            </section>
+            <div class="cookies">
+                <a href="">
+                    Cookies
+                </a>
+            </div>
+            <div class="languages">
+                <button class="languages_button">
+                    <span class="fas fa-globe"></span>
+                    <span>
+                        Português do Brasil
+                    </span>
+                </button>
+            </div>
+        </div>
+    </div>  
+
+    <main>
+        <div class="main_container">
+            <nav class="header_navigation">
+                <div class="navigation">
+                    <button class="arrow_left">
+                        <img src="/icons/small-left.png" alt="seta para esquerda">
+                    </button>
+                    <button class="arrow_right">
+                        <img src="/icons/small-right.png" alt="seta para direita">
+                    </button>
+
+                    <div class="header_search">
+                        <img src="/icons/search.png">
+                        <input id="search_input" type="text" maxlength="800" placeholder="O que você quer ouvir?">
+                    </div>
+                </div>
+                    <div class="header__login">
+                        <button class="subscribe">Inscreva-se</button>
+                        <button class="login">Entrar</button>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="playlist_container">
+                <h1 class="playlist__h1">Boa tarde</h1>
+                <h2 class="playlist__h2">Navegar por todas seções</h2>
+                <div class="playlist__content">
+                    <div class="playlist__card">
+                        <span class="playlist__title">Boas Festas</span>
+                        <img src="/playlist/1.jpeg" alt="">
+                    </div>
+                    <div class="playlist__card">
+                        <span class="playlist__title">Feitos pra você</span>
+                        <img src="/playlist/2.png" alt="">
+                    </div>
+                    <div class="playlist__card">
+                        <span class="playlist__title">Lançamentos</span>
+                        <img src="/playlist/3.jpeg" alt="">
+                    </div>
+                    <div class="playlist__card">
+                        <span class="playlist__title">Creators</span>
+                        <img src="/playlist/4.jpeg" alt="">
+                    </div>
+                    <div class="playlist__card">
+                        <span class="playlist__title">Para treinar</span>
+                        <img src="/playlist/5.jpeg" alt="">
+                    </div>
+                    <div class="playlist__card">
+                        <span class="playlist__title">Podcasts</span>
+                        <img src="/playlist/6.jpeg" alt="">
+                    </div>
+                    <div class="playlist__card">
+                        <span class="playlist__title">Sertanejo</span>
+                        <img src="/playlist/7.jpeg" alt="">
+                    </div>
+                    <div class="playlist__card">
+                        <span class="playlist__title">Samba e pagode</span>
+                        <img src="/playlist/8.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <p>
+                Testar o Premium de graça
+            </p>
+            <p>
+                Inscreva-se para curtir música ilimitada e podcasts só com alguns anúncios. Não precisa de cartão de crédito.
+            </p>
+        </div>
+        <div>
+            <button class="footer__button">
+                Inscreva-se grátis
+            </button>
+        </div>
+    </footer>
+</body>
+</html>
