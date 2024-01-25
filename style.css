@@ -441,15 +441,6 @@ main {
     opacity: 50%;
 }
 
-@keyframes fade-in {
-    from {
-        opacity: 0; /* Começa com opacidade 0 */
-    }
-    to {
-        opacity: 1; /* Termina com opacidade 1 (totalmente opaco) */
-    }
-}
-
 .no-scrollbar {
     scrollbar-width: none;  /* Firefox */
     -ms-overflow-style: none;  /* Internet Explorer 10+ */
