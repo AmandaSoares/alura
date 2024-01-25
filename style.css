@@ -216,6 +216,9 @@ main {
     margin-right: 56px;
 }
 
+ li {
+    list-style: none;
+ }
 .header_navigation {
     display: flex;
     justify-content: space-between;
@@ -448,4 +451,14 @@ main {
 
 .no-scrollbar::-webkit-scrollbar {
     display: none;  /* Chrome, Safari, Edge */
+}
+
+#resultado {
+    background-color: #ae2896;
+    width: 500px;
+    height: 500px;
+}
+
+.hidden {
+    display: none;
 }

@@ -6,6 +6,7 @@
     <title>Spotify Imersão</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="soundbar.css">
     <link rel="stylesheet" href="vars.css">
     <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.css">
     <link rel="icon" href="./icons/logo.svg">
@@ -22,7 +23,7 @@
             <ul>
                 <li>
                     <a href="">
-                        <span class="fas fa-home"></span>
+                        <span class="fa fa-home"></span>
                         <span>Início</span>
                     </a>
                 </li>
@@ -83,90 +84,91 @@
                     <button class="arrow_right">
                         <img src="./icons/small-right.png" alt="seta para direita">
                     </button>
-
+                    
                     <div class="header_search">
                         <img src="./icons/search.png">
                         <input id="search_input" type="text" maxlength="800" placeholder="O que você quer ouvir?">
                     </div>
                 </div>
-                    <div class="header__login">
-                        <button class="subscribe">Inscreva-se</button>
-                        <button class="login">Entrar</button>
-                    </div>
-                </div>
+                
+                <div class="header__login">
+                    <button class="subscribe">Inscreva-se</button>
+                    <button class="login">Entrar</button>
+                </div> 
             </nav>
 
-            <div class="playlist_container">
-                <h1 class="playlist__h1">Boa tarde</h1>
-                <h2 class="playlist__h2">Navegar por todas seções</h2>
-                <div class="playlist__content no-scrollbar">
-                    <div class="playlist__card">
-                        <span class="playlist__title">Boas Festas</span>
-                        <img src="./playlist/1.jpeg" alt="">
-                    </div>
-                    <div class="playlist__card">
-                        <span class="playlist__title">Feitos para você</span>
-                        <img src="./playlist/2.png" alt="">
-                    </div>
-                    <div class="playlist__card">
-                        <span class="playlist__title">Lançamentos</span>
-                        <img src="./playlist/3.jpeg" alt="">
-                    </div>
-                    <div class="playlist__card">
-                        <span class="playlist__title">Creators</span>
-                        <img src="./playlist/4.jpeg" alt="">
-                    </div>
-                    <div class="playlist__card">
-                        <span class="playlist__title">Para treinar</span>
-                        <img src="./playlist/5.jpeg" alt="">
-                    </div>
-                    <div class="playlist__card">
-                        <span class="playlist__title">Podcasts</span>
-                        <img src="./playlist/6.jpeg" alt="">
-                    </div>
-                    <div class="playlist__card">
-                        <span class="playlist__title">Sertanejo</span>
-                        <img src="./playlist/7.jpeg" alt="">
-                    </div>
-                    <div class="playlist__card">
-                        <span class="playlist__title">Samba e Pagode</span>
-                        <img src="./playlist/8.jpeg" alt="">
-                    </div>
-                    <div class="playlist__card">
-                        <span class="playlist__title">Funk</span>
-                        <img src="./playlist/9.jpeg" alt="">
-                    </div>
-                    <div class="playlist__card">
-                        <span class="playlist__title">MPB</span>
-                        <img src="./playlist/10.jpeg" alt="">
-                    </div>
-                    <div class="playlist__card">
-                        <span class="playlist__title">Rock</span>
-                        <img src="./playlist/11.jpeg" alt="">
-                    </div>
-                    <div class="playlist__card">
-                        <span class="playlist__title">Hip Hop</span>
-                        <img src="./playlist/12.jpeg" alt="">
-                    </div>
-                    <div class="playlist__card">
-                        <span class="playlist__title">Indie</span>
-                        <img src="./playlist/13.jpeg" alt="">
-                    </div>
-                    <div class="playlist__card">
-                        <span class="playlist__title">Relax</span>
-                        <img src="./playlist/14.jpeg" alt="">
-                    </div>
-                    <div class="playlist__card">
-                        <span class="playlist__title">Música Latina</span>
-                        <img src="./playlist/15.jpeg" alt="">
-                    </div>
+        <div class="playlist_container">
+            <h1 class="playlist__h1"></h1>
+            <h2 class="playlist__h2">Navegar por todas seções</h2>
+            <div class="playlist__content no-scrollbar">
+                <div class="playlist__card">
+                    <span class="playlist__title">Boas Festas</span>
+                    <img src="./playlist/1.jpeg" alt="">
+                </div>
+                <div class="playlist__card">
+                    <span class="playlist__title">Feitos para você</span>
+                    <img src="./playlist/2.png" alt="">
+                </div>
+                <div class="playlist__card">
+                    <span class="playlist__title">Lançamentos</span>
+                    <img src="./playlist/3.jpeg" alt="">
+                </div>
+                <div class="playlist__card">
+                    <span class="playlist__title">Creators</span>
+                    <img src="./playlist/4.jpeg" alt="">
+                </div>
+                <div class="playlist__card">
+                    <span class="playlist__title">Para treinar</span>
+                    <img src="./playlist/5.jpeg" alt="">
+                </div>
+                <div class="playlist__card">
+                    <span class="playlist__title">Podcasts</span>
+                    <img src="./playlist/6.jpeg" alt="">
+                </div>
+                <div class="playlist__card">
+                    <span class="playlist__title">Sertanejo</span>
+                    <img src="./playlist/7.jpeg" alt="">
+                </div>
+                <div class="playlist__card">
+                    <span class="playlist__title">Samba e Pagode</span>
+                    <img src="./playlist/8.jpeg" alt="">
+                </div>
+                <div class="playlist__card">
+                    <span class="playlist__title">Funk</span>
+                    <img src="./playlist/9.jpeg" alt="">
+                </div>
+                <div class="playlist__card">
+                    <span class="playlist__title">MPB</span>
+                    <img src="./playlist/10.jpeg" alt="">
+                </div>
+                <div class="playlist__card">
+                    <span class="playlist__title">Rock</span>
+                    <img src="./playlist/11.jpeg" alt="">
+                </div>
+                <div class="playlist__card">
+                    <span class="playlist__title">Hip Hop</span>
+                    <img src="./playlist/12.jpeg" alt="">
+                </div>
+                <div class="playlist__card">
+                    <span class="playlist__title">Indie</span>
+                    <img src="./playlist/13.jpeg" alt="">
+                </div>
+                <div class="playlist__card">
+                    <span class="playlist__title">Relax</span>
+                    <img src="./playlist/14.jpeg" alt="">
+                </div>
+                <div class="playlist__card">
+                    <span class="playlist__title">Música Latina</span>
+                    <img src="./playlist/15.jpeg" alt="">
+                </div>
+
+                <div id="resultado" class="hidden">
+
                 </div>
             </div>
-
         </div>
     </main>
-
-    <footer>
+    <!-- <footer>
         <div>
             <p>
                 Testar o Premium de graça
@@ -180,6 +182,39 @@
                 Inscreva-se grátis
             </button>
         </div>
-    </footer>
+    </footer> -->
+   
+        <div class="soundbar">
+            <div class="song_dates">
+                <img class="img__soundbar" src="https://upload.wikimedia.org/wikipedia/en/thumb/5/55/Ghost_-_Prequelle_%28album%29.jpg/220px-Ghost_-_Prequelle_%28album%29.jpg" alt="">
+                <div class="artist">
+                    <span class="music_name">
+                        Dance Macabre
+                    </span>
+                    <span class="artist_name">
+                        Ghost
+                    </span>
+                </div>
+                <span onclick="changeColor()" class="fas fa-heart heart"></span>
+            </div>
+            <div class="controls">
+                <div class="controls__buttons">
+                    <span class="fas fa-random"></span>
+                    <span class="fas fa-step-backward"></span>
+                    <span class="fas fa-play play" onclick="play()"></span>
+                    <span class="fas fa-step-forward"></span>
+                    <span class="fas fa-retweet"></span>
+                </div>
+                <div class="timebar">
+                    <hr>
+                </div>
+            </div>
+            <div class="controls">
+                <span class="fas fa-volume-mute"></span>
+            </div>
+        </div>
+        <audio id="music" src="/dancemacabre.mp3"></audio>
+    
+    <script src="script.js"></script>
 </body>
 </html>
